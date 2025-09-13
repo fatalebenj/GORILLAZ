@@ -1,5 +1,16 @@
 #disco {
     padding: 20px 0 20px 0;
+    text-align: center; /* Garante alinhamento central */
+}
+
+/* Título alinhado normalmente */
+#disco .title {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #disco table {
@@ -8,6 +19,7 @@
     margin: 0 auto;
     border-spacing: 10px;
     border-collapse: separate;
+    transform: translateX(-55px);
 }
 
 #disco td {
@@ -19,7 +31,7 @@
 #disco td p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    margin-top: 8;
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
@@ -35,10 +47,11 @@
     width: 100%;
     max-width: 250px;
     height: 250px;
+    cursor: not-allowed;
     border: 2px solid transparent;
 }
 
 #disco-futuro {
     cursor: not-allowed;
-    background-color: #863838;;
+    background-color: #863838;
 }
