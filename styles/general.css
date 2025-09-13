@@ -58,7 +58,6 @@ body {
 
 #cabecalho a {
     color: #fff;
-    transition: color 0.4s;
     text-decoration: none;
     margin: 0 8px;
     font-size: 18px;
@@ -94,4 +93,8 @@ body {
 
 #socials li a:hover {
     color: #720505;
+}
+
+#cabecalho p {
+    display: block;
 }
