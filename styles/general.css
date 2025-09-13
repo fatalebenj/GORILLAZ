@@ -77,3 +77,21 @@ body {
 #cabecalho a {
         font-size: 14px;
 }
+
+#socials li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#socials li a {
+    color: #fff;
+    font-size: 30px;
+}
+
+#socials li a:visited {
+    color: #fff;
+}
+
+#socials li a:hover {
+    color: #720505;
+}
