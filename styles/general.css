@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #2c2c2c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+#cabecalho, #conteudo, #rodape {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#cabecalho {
+    width: 1912px;
+    height: 100px;
+    background: #562720;
+    margin: 24px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#conteudo {
+    width: 1912px;
+    background: #554b4b;
+    margin: 0 auto 16px auto;
+    padding: 16px 0 0 0;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+#rodape {
+    width: 1912px;
+    max-width: 600px;
+    height: 60px;
+    background: #554b4b;
+    margin: 0 auto 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#cabecalho a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 18px;
+}
