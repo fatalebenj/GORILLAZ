@@ -1,0 +1,44 @@
+#disco {
+    padding: 20px 0 20px 0;
+}
+
+#disco table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+#disco td {
+    text-align: center;
+    vertical-align: top;
+    padding: 16px 2px 2px 2px;
+}
+
+#disco td p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
+
+#disco img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+#disco-futuro img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border: 2px solid transparent;
+}
+
+#disco-futuro {
+    cursor: not-allowed;
+    background-color: #863838;;
+}
