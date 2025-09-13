@@ -25,7 +25,7 @@
     font-size: 15pt;
 }
 
-#storetitle {
+.title {
     font-family: "Inter", sans-serif;
     font-size: 40pt;
     font-weight: 800;
@@ -62,4 +62,33 @@
 
 #loja img:hover {
     border-color: #720505;
+}
+
+#requestbutton {
+  align-items: center;
+  padding: 6px 14px;
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#requestbutton a {
+    color: #3D3D3D;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+#requestbutton a:hover {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+#requestbutton a:visited {
+    color: #3D3D3D;
+    text-decoration: none;
 }
