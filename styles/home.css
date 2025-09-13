@@ -41,13 +41,14 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border-spacing: 20px;
+    border-spacing: 10px;
     border-collapse: separate;
 }
 
 #loja td {
     text-align: center;
     vertical-align: top;
+    padding: 2px;
 }
 
 #loja img {
