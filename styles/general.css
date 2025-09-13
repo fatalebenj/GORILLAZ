@@ -2,12 +2,12 @@
 
 body {
     margin: 0;
-    background: #2c2c2c;
+    background: #343030;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
 }
 
-#cabecalho, #conteudo, #rodape {
+#cabecalho, .conteudo, #rodape {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     font-size: 16px;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     max-width: 1912px;
     height: 100px;
-    background: #562720;
+    background: #f12121;
     margin: 24px auto 0 auto;
     display: flex;
     align-items: center;
@@ -33,10 +33,10 @@ body {
     height: auto;
 }
 
-#conteudo {
+.conteudo {
     width: 100%;
     max-width: 1912px;
-    background: #554b4b;
+    background: #764c47;
     margin: 0 auto 16px auto;
     padding: 16px 0 0 0;
     font-size: 16px;
@@ -48,7 +48,7 @@ body {
     width: 100%;
     max-width: 1912px;
     height: 60px;
-    background: #554b4b;
+    background: #f12121;
     margin: 0 auto 24px auto;
     display: flex;
     align-items: center;
@@ -58,23 +58,17 @@ body {
 
 #cabecalho a {
     color: #fff;
-    transition: color 0.4;
+    transition: color 0.4s;
     text-decoration: none;
     margin: 0 8px;
     font-size: 18px;
 }
 
 #cabecalho a:hover {
-    animation: flash-red 0.4s ease;
+    color: #720505;
 }
 
-@keyframes flash-red {
-    0% { color: #fff; }
-    50% { color: #ff0000; }
-    100% { color: #fff; }
-}
-
-#cabecalho, #conteudo, #rodape {
+#cabecalho, .conteudo, #rodape {
         width: 95%;
         margin-left: auto;
         margin-right: auto;

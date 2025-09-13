@@ -4,22 +4,31 @@
     height: auto;
 }
 
-#first {
+#title {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 50pt;
+    margin: 20px 0;
+    color: #720505;
+}
+
+#text {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#sefikura {
-    font-family: "Inter", sans-serif;
-    font-weight: 900;
-    font-size: 50pt;
-    margin: 20px 0;
-}
-
-#clerith {
+#text p{
     text-align: justify;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15pt;
+}
+
+#storetitle {
+    font-family: "Inter", sans-serif;
+    font-size: 40pt;
+    font-weight: 800;
+    margin-top: 10px;
+
 }
