@@ -1,0 +1,25 @@
+#gg{
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+}
+
+#zakkura{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sefikura {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 50pt;
+    margin: 20px 0;
+}
+
+#clerith {
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+}

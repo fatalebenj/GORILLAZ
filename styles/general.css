@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     margin: 0;
     background: #2c2c2c;
@@ -14,28 +16,37 @@ body {
 }
 
 #cabecalho {
-    width: 1912px;
+    width: 100%;
+    max-width: 1912px;
     height: 100px;
     background: #562720;
-    margin: 24px 0 0 0;
+    margin: 24px auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
 }
 
+#cabecalho img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
 #conteudo {
-    width: 1912px;
+    width: 100%;
+    max-width: 1912px;
     background: #554b4b;
     margin: 0 auto 16px auto;
     padding: 16px 0 0 0;
     font-size: 16px;
     margin-top: 24px;
+    box-sizing: border-box;
 }
 
 #rodape {
-    width: 1912px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 1912px;
     height: 60px;
     background: #554b4b;
     margin: 0 auto 24px auto;
@@ -47,7 +58,28 @@ body {
 
 #cabecalho a {
     color: #fff;
+    transition: color 0.4;
     text-decoration: none;
     margin: 0 8px;
     font-size: 18px;
+}
+
+#cabecalho a:hover {
+    animation: flash-red 0.4s ease;
+}
+
+@keyframes flash-red {
+    0% { color: #fff; }
+    50% { color: #ff0000; }
+    100% { color: #fff; }
+}
+
+#cabecalho, #conteudo, #rodape {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#cabecalho a {
+        font-size: 14px;
 }
