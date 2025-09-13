@@ -32,3 +32,32 @@
     margin-top: 10px;
 
 }
+
+#loja {
+    padding: 20px 0 20px 0;
+}
+
+#loja table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+#loja td {
+    text-align: center;
+    vertical-align: top;
+}
+
+#loja img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+#loja img:hover {
+    border-color: #720505;
+}
