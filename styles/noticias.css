@@ -89,22 +89,26 @@ padding-bottom: 35px;
     overflow-y: auto;
     border-radius: 8px;
     padding: 20px;
+    display: flex;
 }
 
 /* Posts individuais */
 .post {
     background-color: #7c2727;
+    width: 400px;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 15px;
-    border-left: 4px solid #f12121;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     transition: transform 0.2s ease;
+    margin-left: 15px;
+}
+
+.post:first-child {
+    margin-left: 0;
 }
 
 .post:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .post:last-child {
