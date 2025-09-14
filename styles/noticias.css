@@ -1,0 +1,65 @@
+#imgtour {
+    width:100%;
+    max-width:400px;
+    display:block;
+    margin-left: 100px;
+}
+
+#tourdates {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+#tourcontent {
+display: flex;
+padding-bottom: 35px;
+}
+
+#tourtitle {
+    display: block;
+    text-align: center;
+    font-size: 40pt;
+    margin-bottom: 20px;
+}
+
+#tourdates li {
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: #7c2727;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.date {
+    margin-right: 50px;
+    color: #240202;
+    position: relative;
+    top: 5px;
+}
+
+.lugar {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+}
+
+.buy {
+    float: right;
+    margin-right: 5px;
+    height: 28px;
+    top: 0.4em;
+    position: relative;
+    color: #fff;
+    background-color: #f12121;;
+    margin-left: 200px;
+    font-weight: 700;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+}
