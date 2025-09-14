@@ -18,140 +18,122 @@
     text-align: justify;
 }
 
+/* Characters section - using flexbox for better layout */
 #chars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
     position: relative;
-    top: 20px;
 }
 
+/* Members section - also using flexbox */
 #membros {
-    position: relative;
-    top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    margin-top: 50px;
 }
-
 
 div.char {
-    padding: 50px;
-    width: 300px;
+    padding: 30px;
+    width: 250px;
     background-color: white;
-    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+div.char:nth-child(1) { transform: rotate(0deg); }
+div.char:nth-child(2) { transform: rotate(0deg); }
+div.char:nth-child(3) { transform: rotate(-5deg); }
+div.char:nth-child(4) { transform: rotate(6deg); }
+
+div.char:hover {
+    transform: scale(1.05) rotate(0deg);
 }
 
 div.perso {
-    padding: 50px;
-    width: 200px;
+    padding: 30px;
+    width: 180px;
     background-color: white;
-    margin: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+div.perso:nth-child(1) { transform: rotate(-6deg); }
+div.perso:nth-child(2) { transform: rotate(3deg); }
+div.perso:nth-child(3) { transform: rotate(-2deg); }
+div.perso:nth-child(4) { transform: rotate(5deg); }
+div.perso:nth-child(5) { transform: rotate(-6deg); }
+div.perso:nth-child(6) { transform: rotate(-7deg); }
+div.perso:nth-child(7) { transform: rotate(6deg); }
+div.perso:nth-child(8) { transform: rotate(5deg); }
+
+div.perso:hover {
+    transform: scale(1.05) rotate(0deg);
 }
 
 img.imagesize {
-    width: 300px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 img.imagesize2 {
-    width: 200px;
+    width: 100%;
+    max-width: 180px;
+    height: auto;
 }
 
 p.charname {
     font-weight: bolder;
     font-family: IMPACT;
-    font-size: 70pt;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 3.5rem;
+    margin: 20px 0;
     text-align: center;
     color: black;
 }
 
 p.personame {
     font-family: IMPACT;
-    font-size: 60pt;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin: 20px 0;
     text-align: center;
     color: black;
     font-weight: 300;
 }
 
-
-
-
-#doisde {
-    position: absolute;
-    left: 900px;
-    top: 20px;
+@media (max-width: 1200px) {
+    #chars, #membros {
+        gap: 20px;
+        padding: 30px 15px;
+    }
+    
+    div.char, div.perso {
+        width: 200px;
+        padding: 20px;
+    }
+    
+    p.charname {
+        font-size: 2.5rem;
+    }
+    
+    p.personame {
+        font-size: 2rem;
+    }
 }
 
-#noodle {
-    position: relative;
-    left: 100px;
-    top: 150px;
-}
-
-#russel {
-    position: relative;
-    left: 950px;
-    top: 150px;
-}
-
-#murdoc {
-    position: absolute;
-    left: 300px;
-    top: 900px;
-}
-
-
-
-#damon {
-    position: absolute;
-    left: 700px;
-    top: 120px;
-    rotate: -6deg;
-}
-
-#jamie {
-    position: absolute;
-    left: 350px;
-    top: 50px;
-    rotate: 3deg;
-}
-
-#remi {
-    position: relative;
-    left: 0px;
-    top: 200px;
-    rotate: -2deg;
-}
-
-#mike {
-    position: absolute;
-    left: 1050px;
-    top: 50px;
-    rotate: 5deg;
-}
-
-#karl {
-    position: relative;
-    left: 900px;
-    top: 550px;
-    rotate: -6deg;
-}
-
-#jeff {
-    position: absolute;
-    left: 50px;
-    top: 800px;
-    rotate: -7deg;
-}
-
-#seye {
-    position: relative;
-    left: 500px;
-    top: -300px;
-    rotate: 6deg;
-}
-
-#jaega {
-    position: relative;
-    left: 1050px;
-    top: -1100px;
-    rotate: 5deg;
-}
+@media (max-width: 768px) {
+    #chars, #membros {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div.char, div.perso {
+        transform: none !important;
+        width: 250px;
+    }
+    
