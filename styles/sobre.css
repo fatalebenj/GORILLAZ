@@ -1,30 +1,157 @@
+#sobre {
+    width: 100%;
+    max-width: 1912px;
+    height: 200px;
+    background: #f12121;
+    margin: 24px auto 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#sobretext {
+    padding: 20px 40px;
+    font-size: 15pt;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#chars {
+    position: relative;
+    top: 20px;
+}
+
+#membros {
+    position: relative;
+    top: 400px;
+}
+
+
 div.char {
     padding: 50px;
-    width: 500px;
+    width: 300px;
+    background-color: white;
+    margin: 30px;
+}
+
+div.perso {
+    padding: 50px;
+    width: 200px;
     background-color: white;
     margin: 50px;
 }
+
 img.imagesize {
-    width: 500px;
+    width: 300px;
 }
+
+img.imagesize2 {
+    width: 200px;
+}
+
 p.charname {
     font-weight: bolder;
     font-family: IMPACT;
-    font-size: 100pt;
+    font-size: 70pt;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
     color: black;
 }
 
+p.personame {
+    font-family: IMPACT;
+    font-size: 60pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+
+
+
+
 #doisde {
     position: absolute;
-    left: 1000px;
-    top: 200px;
+    left: 900px;
+    top: 20px;
 }
 
 #noodle {
     position: relative;
     left: 100px;
+    top: 150px;
+}
+
+#russel {
+    position: relative;
+    left: 950px;
+    top: 150px;
+}
+
+#murdoc {
+    position: absolute;
+    left: 300px;
+    top: 900px;
+}
+
+
+
+#damon {
+    position: absolute;
+    left: 700px;
+    top: 120px;
+    rotate: -6deg;
+}
+
+#jamie {
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    rotate: 3deg;
+}
+
+#remi {
+    position: relative;
+    left: 0px;
     top: 200px;
+    rotate: -2deg;
+}
+
+#mike {
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+    rotate: 5deg;
+}
+
+#karl {
+    position: relative;
+    left: 900px;
+    top: 550px;
+    rotate: -6deg;
+}
+
+#jeff {
+    position: absolute;
+    left: 50px;
+    top: 800px;
+    rotate: -7deg;
+}
+
+#seye {
+    position: relative;
+    left: 500px;
+    top: -300px;
+    rotate: 6deg;
+}
+
+#jaega {
+    position: relative;
+    left: 1050px;
+    top: -1100px;
+    rotate: 5deg;
 }
