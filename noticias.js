@@ -1,7 +1,5 @@
-// JavaScript simples para o Fórum Gorillaz com LocalStorage
 document.addEventListener('DOMContentLoaded', function() {
-    
-    // Elementos do DOM
+
     const postsContainer = document.getElementById('posts-container');
     const nomeInput = document.getElementById('nome');
     const tituloInput = document.getElementById('titulopost');
